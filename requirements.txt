@@ -1,0 +1,6 @@
+beautifulsoup4>=4.12
+requests>=2.31
+PyYAML>=6.0
+Pillow>=10.0
+tenacity>=8.2
+tqdm>=4.66

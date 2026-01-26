@@ -1,0 +1,18 @@
+# scraper_config.yaml
+# Configuration for the Image Scraper
+
+# Network settings
+timeout: 45  # Request timeout in seconds
+chunk_size: 262144  # Download chunk size in bytes (256KB)
+max_retries: 5  # Maximum number of retry attempts for failed downloads
+
+# User-Agent header (impersonate a real browser)
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# Concurrency settings
+max_workers: 8  # Number of concurrent downloads (threads)
+rate_limit_per_second: 5  # Maximum requests per second to avoid rate limiting
+
+# File handling
+output_base_dir: "./scraped_images"  # Base directory for all downloads
+validate_images: true  # Validate downloaded images using PIL
