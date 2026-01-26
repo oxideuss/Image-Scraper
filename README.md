@@ -29,7 +29,7 @@ A robust, feature-rich Python image scraper with concurrent downloading, rate li
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/image-scraper.git
+git clone https://github.com/oxideuss/image-scraper.git
 cd image-scraper
 ```
 
