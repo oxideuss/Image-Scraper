@@ -45,7 +45,9 @@ pip install beautifulsoup4 requests pillow tqdm tenacity pyyaml
 
 ## ⚡ Quick Start
 
+```bash
 python scraper.py  
+```
 Enter a gallery URL  
 Watch images download  
 
