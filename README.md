@@ -317,7 +317,7 @@ python -m pytest
 # Code formatting
 black scraper.py
 ```
-
+<del>
 ## 🛣 Planned Features
 
 - Custom request headers from config
@@ -328,7 +328,7 @@ black scraper.py
 - Proxy authentication helpers
 - Filename templates
 - WebP → PNG conversion
-
+</del>
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
